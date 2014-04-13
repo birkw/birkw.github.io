@@ -1,0 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+#logo {
+  width: 384px;
+  height: 213px;
+  display: block;
+  background-image: url('logo.png');
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -192px;
+  margin-top: -106px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (max--moz-device-pixel-ratio: 1.5) {
+  #logo {
+    -webkit-background-size: 384px 213px;
+    background-size: 384px 213px;
+    background-image: url('logo@2x.png');
+  }
+}
