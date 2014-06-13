@@ -21,13 +21,6 @@ body {
   margin-top: -106px;
 }
 
-#text {
-  font-family:monospace, Courier; 
-  font-size:8px; 
-  color:#000000; 
-  background-color:#FFFFFF
-}
-
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (max--moz-device-pixel-ratio: 1.5) {
   #logo {
     -webkit-background-size: 384px 213px;
