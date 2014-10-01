@@ -6,25 +6,25 @@ html, body {
 }
 
 body {
-  background-color: #fcfcfc;
+  background-color: #000;
 }
 
 #logo {
-  width: 384px;
-  height: 213px;
+  width: 600px;
+  height: 300px;
   display: block;
   background-image: url('logo.png');
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -192px;
-  margin-top: -106px;
+  margin-left: -300px;
+  margin-top: -150px;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (max--moz-device-pixel-ratio: 1.5) {
   #logo {
-    -webkit-background-size: 384px 213px;
-    background-size: 384px 213px;
+    -webkit-background-size: 600px 300px;
+    background-size: 600px 300px;
     background-image: url('logo@2x.png');
   }
 }
