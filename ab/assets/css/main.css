@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift.woff") format("woff");
+}
+@font-face {
+  font-family: 'Shift';
+  font-style: normal;
+  font-weight: bold;
+  src: url("http://s3.amazonaws.com/codecademy-content/courses/ltp/fonts/shift-bold.woff") format("woff");
+}
+
+.nav {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('../images/jumbo.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.thumbnail p {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.produkt-guides {
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.produkt-guides h2 {
+  font-family: 'Helvetica' sans-serif;
+  text-align: center;
+  color: #393c3d;
+  margin-top: 37px;
+  font-size: 40px;
+  margin-bottom: 13px;
+  letter-spacing: 2px;
+
+}
+.produkt-guides h5 {
+  text-align: center;
+  color: #393c3d;
+  font-size: 10px;
+  margin-bottom: 13px;
+  letter-spacing: 1px;
+}
+
+.produkt-guides .thumbnail {
+  margin: none;
+  padding: none;
+  border: none;
+  background-color: transparent;
+  position: relative;
+}
+
+.produkt-guides .thumbnail p{
+  font-size: 12px;
+  font-family: georgia;
+  letter-spacing: 0.5px;
+}
+.historia {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.produkt-guides .thumbnail {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.produkt-guides .thumbnail h4 {
+  font-family: Shift, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 29px;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+}
+
+.historia {
+  font-family: 'Helvetica' sans-serif;
+  padding-top: 70px;
+  background-color: #f7f7f7;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.historia h2 {
+  font-family: 'Helvetica' sans-serif;
+  text-align: center;
+  color: #393c3d;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.historia p {
+  color: #262626;
+  background-color: #f5f5f5;
+  letter-spacing: 1px;
+}
+
+.snappsar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.snappsar h2{
+  font-family: 'Helvetica' sans-serif;
+  text-align: center;
+  color: #393c3d;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.img-center {margin:0 auto;}
+
+}
+
+footer {
+  background-color: #f6f6f6;
+}
+
+.footer {
+  color: #f6f6f6;
+  background-color: #262626;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.footer h3{
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f6f6;
+  background-color: #262626;
+}
+
+.footer li{
+  font-size: 12px;
+  color: #f6f6f6;
+  background-color: #262626;
+}
+
+.footer hr {
+  display: block;
+  width: 100%;
+  max-height: 0;
+  line-height: 0;
+  border-top: 1px solid #505050;
+}
+
+.snappsar hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: 30%;
+  max-height: 0;
+  line-height: 0;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footertext {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'helvetica', sans-serif;
+  color: #505050;
+}
