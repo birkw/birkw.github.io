@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f9c23a;
+	background-size: 1024px;
+	width: 1024px;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	-webkit-user-select: none;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    background-image: url(images/bg@2x.jpg);
+	background-size: 1024px;
+}
