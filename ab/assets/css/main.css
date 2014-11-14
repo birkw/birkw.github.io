@@ -54,7 +54,7 @@
 }
 
 .thumbnail p {
-  padding-top: 10px;
+  padding-top: 12px;
   font-size: 12px;
 }
 
@@ -105,6 +105,7 @@
   font-size: 12px;
   font-family: georgia;
   letter-spacing: 0.5px;
+  padding-top: 10px;
 }
 .historia {
   padding-top: 25px;
