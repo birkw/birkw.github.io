@@ -142,6 +142,7 @@
 }
 
 .historia p {
+  padding-top: 10px;
   color: #262626;
   background-color: #f5f5f5;
   letter-spacing: 1px;
@@ -149,7 +150,7 @@
 
 .snappsar {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 
 .snappsar h2{
@@ -158,6 +159,10 @@
   color: #393c3d;
   font-size: 40px;
   letter-spacing: 2px;
+}
+
+.flask-text {
+  padding-top: 120px;
 }
 
 .img-center {margin:0 auto;}
@@ -183,6 +188,7 @@ footer {
   background-color: #262626;
 }
 
+
 .footer li{
   font-size: 12px;
   color: #f6f6f6;
@@ -201,7 +207,18 @@ footer {
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
-  width: 30%;
+  width: 40%;
+  max-height: 0;
+  line-height: 0;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #ffffff;
+}
+
+.flask-text hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  width: 50%;
   max-height: 0;
   line-height: 0;
   border-top: 1px solid #dadada;
@@ -213,4 +230,11 @@ footer {
   font-size: 10px;
   font-family: 'helvetica', sans-serif;
   color: #505050;
+}
+
+
+.btn-primary {
+  color: #ffffff !important;
+  background-color: #428bca !important;
+  border-color: #357ebd !important;
 }
