@@ -306,7 +306,6 @@ footer {
 #hem {
   display: block;
   content: " ";
-  margin-top: -130px;
-  height: 130px;
+  height: 10px;
   visibility: hidden;
 }
