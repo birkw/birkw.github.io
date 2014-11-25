@@ -302,3 +302,11 @@ footer {
   height: 130px;
   visibility: hidden;
 }
+
+#hem {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+}
