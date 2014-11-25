@@ -30,17 +30,37 @@
       <script src="assets/js/maps.js"></script>
 
 
-  </head>
-  <body>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+
+
+
+</head>
+<body>
     <div class="nav navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <a class="" href="index.html"><img src="assets/images/ag.png" pull-left> <a>
         <ul class="pull-right">
           <li><a href="#">Hem</a></li>
-          <li><a href="#">Om Gården</a></li>
-          <li><a href="#">Adambergs Aquavit</a></li>
-          <li><a href="#">Kontakt</a></li>
+          <li><a href="#garden">Om Gården</a></li>
+          <li><a href="#snapps">Adambergs Aquavit</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
         </ul>
     </div>
     </div>
@@ -75,44 +95,37 @@
   </div>
 </div>
 </div>
-    <div class="historia">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-8 col-md-offset-2">
-			     <h2>Om Gården</h2>
-           <hr>
-			     <p>Adamsbergs ägare är kända sedan ca 1270-talet. Redan då var gården en herrgård och frälse, det vill säga fri från skatt. År 1793 tillträdde generalen greve Claes Horn som ägare till Adamsbergs Säteri. Då fanns på högsta punkten i herrgårdsparken en stor "prydlig" herrgårdsbyggnad som var nybyggd på 1730-talet.
-            </br></br>
-            Från 1795 byggdes under ledning av byggmästaren Anders Hansson ett antal hus. Ett av dem var brännvinsbränneriet på Adamsberg. Bränneriet låg strax söder om nuvarande sjöboden på "Bränneritomten". Grunden finns kvar. En brännvinskällare uppfördes i norra delen av ekprydda herrgårdsparken. Grunden, som numera till stor del är igenfylld för att ta bort en olycksrisk, finns kvar.
-             </br></br>
-             1824 var generalen död och begravd i det pampiga gravkoret på Rimbo kyrkogård till höger om kyrkans klockstapel. 1826 tillträdde generalens systerdotter och guddotter Ebba Horn, född Uggla som ägarinna till Adamsberg. Hon var gift med greve Claes Fredrik Horn som så småningom blev landshövding i Stockholms län. De hade också ett stenhus mellan Clara Västra och Södra Kyrkogata i Stockholm. De hade efter Claes Horn övertagit gamle riksrådet greve Adam Horns magnifika bibliotek som förvarades på Adamsberg från ca 1795 till ca 1806 och därefter i huvudsak från 1826 till 1865 då Claes Fredrik Horn avled.
-            </br>               </br>          
-		    </div>
-	    </div>
-	   </div>
-	</div>
-  <div class="snappsar">
+          <div class="historia">
+            <h3 id="garden"></h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+        			     <h2>Om Gården</h2>
+                   <hr><p>Adamsbergs ägare är kända sedan ca 1270-talet. Redan då var gården en herrgård och frälse, det vill säga fri från skatt. År 1793 tillträdde generalen greve Claes Horn som ägare till Adamsbergs Säteri. Då fanns på högsta punkten i herrgårdsparken en stor "prydlig" herrgårdsbyggnad som var nybyggd på 1730-talet.</br></br>Från 1795 byggdes under ledning av byggmästaren Anders Hansson ett antal hus. Ett av dem var brännvinsbränneriet på Adamsberg. Bränneriet låg strax söder om nuvarande sjöboden på "Bränneritomten". Grunden finns kvar. En brännvinskällare uppfördes i norra delen av ekprydda herrgårdsparken. Grunden, som numera till stor del är igenfylld för att ta bort en olycksrisk, finns kvar.</br></br>1824 var generalen död och begravd i det pampiga gravkoret på Rimbo kyrkogård till höger om kyrkans klockstapel. 1826 tillträdde generalens systerdotter och guddotter Ebba Horn, född Uggla som ägarinna till Adamsberg. Hon var gift med greve Claes Fredrik Horn som så småningom blev landshövding i Stockholms län. De hade också ett stenhus mellan Clara Västra och Södra Kyrkogata i Stockholm. De hade efter Claes Horn övertagit gamle riksrådet greve Adam Horns magnifika bibliotek som förvarades på Adamsberg från ca 1795 till ca 1806 och därefter i huvudsak från 1826 till 1865 då Claes Fredrik Horn avled.</br></br>
+                </div>
+              </div>
+            </div>
+          </div>
+<div class="snappsar">
   <div class="container">
+    <h3 id="snapps"></h3>
     <h2> Adamsbergs Aquavit </h2>
     <hr>
-        <div class="col-md-6">
-    <img src="assets/images/test-flaska.png" class="img-responsive img-center">
-  </div>
-    <div class="flask-text">
+      <div class="col-md-6">
+        <img src="assets/images/test-flaska.png" class="img-responsive img-center">
+      </div>
+  <div class="flask-text">
     <div class="col-md-6">
-        <p><b>Akvavit är ett kryddat brännvin som är smaksatt</b> med minst en av kryddorna kummin och dill. Namnet akvavit kommer från latinetsaqua vitae - livets vatten. Av denna anledning använder vissa varumärken också stavningarna aquavit eller aqvavit. Akvavit har namnskyddats inom Europeiska unionen genom en EU-förordning, med angivande av just kummin eller dill som kryddning och en lägsta alkoholhalt om 37,5 volymprocent.Även om kummin eller dill är obligatoriska ingredienser, förekommer därutöver ett antal kryddor och örter som anis och fänkål. Kryddat brännvin som varken innehåller kummin eller dill är däremot inte akvavit.
-        <hr>
-        Akvavit tillverkas i Sverige, Norge och Danmark. De två huvudsakliga stilarna av akvavit är den danska stilen respektive den norska stilen, som skiljer sig genom att den norska har tydliga toner av ekfatslagring, framför allt genom användning av sherryfat. Typisk dansk akvavit är således mer dominerad av kryddor, medan typisk norsk akvavit ofta är rundare i smaken.</br>
-        Akvavit används huvudsakligen som snaps.
-        <hr>
-        Svensk akvavit tillverkas till stor del i den danska stilen, men även svensk akvavit i norsk stil förekommer. De flesta svenska akvaviter tillverkas av främst finska Altia som tog över flera kända klassiska varumärken efter det att Vin & Sprit såldes till Pernod Ricard som sin tur sålde av delar av den nyförvärvade portföljen. Dock finns flera aktörer på marknaden som tillverkar såväl klassiska som nyskapade smak/kryddkombinationer. </br></br></br>
-        <p><a class="btn btn-primary" href="http://www.systembolaget.se/" role="button" target="_blank">Beställ Här!</a></p>
-    </div>
- </p>
+            <p><b>Akvavit är ett kryddat brännvin som är smaksatt</b> med minst en av kryddorna kummin och dill. Namnet akvavit kommer från latinetsaqua vitae - livets vatten. Av denna anledning använder vissa varumärken också stavningarna aquavit eller aqvavit. Akvavit har namnskyddats inom Europeiska unionen genom en EU-förordning, med angivande av just kummin eller dill som kryddning och en lägsta alkoholhalt om 37,5 volymprocent.Även om kummin eller dill är obligatoriska ingredienser, förekommer därutöver ett antal kryddor och örter som anis och fänkål. Kryddat brännvin som varken innehåller kummin eller dill är däremot inte akvavit.<hr>Akvavit tillverkas i Sverige, Norge och Danmark. De två huvudsakliga stilarna av akvavit är den danska stilen respektive den norska stilen, som skiljer sig genom att den norska har tydliga toner av ekfatslagring, framför allt genom användning av sherryfat. Typisk dansk akvavit är således mer dominerad av kryddor, medan typisk norsk akvavit ofta är rundare i smaken.</br>
+            Akvavit används huvudsakligen som snaps.<hr>Svensk akvavit tillverkas till stor del i den danska stilen, men även svensk akvavit i norsk stil förekommer. De flesta svenska akvaviter tillverkas av främst finska Altia som tog över flera kända klassiska varumärken efter det att Vin & Sprit såldes till Pernod Ricard som sin tur sålde av delar av den nyförvärvade portföljen. Dock finns flera aktörer på marknaden som tillverkar såväl klassiska som nyskapade smak/kryddkombinationer. </br></br></br>
+            <p><a class="btn btn-primary" href="http://www.systembolaget.se/" role="button" target="_blank">Beställ Här!</a></p>
+      </div>
     </div>
   </div>
-
+</div>
     <div class="kontakt">
+    <h3 id="kontakt"></h3>
+
                <div class="container">
                <h2>Kontakt</h2>
                <div class="col-md-4 col-md-offset-2">
@@ -121,15 +134,12 @@
                <div class="col-md-4">
                   <p>Akvavit är ett kryddat brännvin som är smaksatt med minst en av kryddorna kummin och dill. Namnet akvavit kommer från latinetsaqua vitae - livets vatten. Av denna anledning använder vissa varumärken också stavningarna aquavit eller aqvavit.</p>
                </div>
-
-
                   <div class="row">
                       <div class="col-md-12">
                           <div>
                               <form class="form-horizontal" method="post">
                                 <div class="kontaktform">
                                       <h3 class="text-center ">Kontaktformulär</h3>
-
                                       <div class="form-group">
                                           <div class="col-md-8 col-md-offset-2">
                                               <input id="fname" name="name" type="text" placeholder="Förnamn" class="form-control">
@@ -140,25 +150,21 @@
                                               <input id="lname" name="name" type="text" placeholder="Efternamn" class="form-control">
                                           </div>
                                       </div>
-
                                       <div class="form-group">
                                           <div class="col-md-8 col-md-offset-2">
                                               <input id="email" name="email" type="text" placeholder="Mailadress" class="form-control">
                                           </div>
                                       </div>
-
                                       <div class="form-group">
                                           <div class="col-md-8 col-md-offset-2">
                                               <input id="phone" name="phone" type="text" placeholder="Telefonnummer" class="form-control">
                                           </div>
                                       </div>
-
                                       <div class="form-group">
                                           <div class="col-md-8 col-md-offset-2">
                                               <textarea class="form-control" id="message" name="message" placeholder="Skriv ditt meddelande här..." rows="7"></textarea>
                                           </div>
                                       </div>
-
                                       <div class="form-group">
                                           <div class="col-md-12 text-center">
                                               <button type="submit" class="btn btn-primary btn-lg">Submit</button>
@@ -170,7 +176,6 @@
                       </div>
                   </div>
               </div>
-
                <div id="map"></div>
       </div>
   </div>
@@ -183,9 +188,7 @@
           <p> Adamsbergsnappsar       Adamsberg 9015, 762 91 Rimbo         0175 735 35        Epost: info@adamsberg.com</p>
         </div>
     <div>
-
   </footer>
-
    <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
     <script src="assets/js/bootstrap-alert.js"></script>
