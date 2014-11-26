@@ -42,6 +42,56 @@ body {
 
 
 
+.knapp {
+	background-color:#fff;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#90cfc6;
+	font-family: 'helvetica' sans-serif;
+	font-size:54px;
+	font-weight:bold;
+	padding:24px 40px;
+	text-decoration:none;
+	position: absolute;
+}
+
+.knappnoll {
+	background-color:#fff;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#90cfc6;
+	font-family: 'helvetica' sans-serif;
+	font-size:54px;
+	font-weight:bold;
+	padding:24px 180.5px;
+	text-decoration:none;
+	position: absolute;
+}
+
+
+.storknapp {
+	background-color:#fff;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#90cfc6;
+	font-family: 'helvetica' sans-serif;
+	font-size:54px;
+	font-weight:bold;
+	padding:20px 50px;
+	text-decoration:none;
+	position: absolute;
+}
+
+
+
+
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
