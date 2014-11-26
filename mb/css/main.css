@@ -25,17 +25,19 @@ body {
 .textstyle p {
   font-family: 'Roboto-Bold' sans-serif;
   text-align: center;
-  left: 50%;
   margin-right: 512px;
   color: #fff;
   font-size: 54px;
   letter-spacing: 1px;
+  position: absolute;
 }
 
 .bullar {
 	position: absolute;
 	height: 500px;
+	margin-top: -250px;
 	left: 512px;
+	top: 512px;
 	margin-left: -250px;
 }
 
