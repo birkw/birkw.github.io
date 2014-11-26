@@ -19,8 +19,7 @@ body {
 }
 
 .container {
-	width: 100%;
-	height: 100%;
+	width: 1024px;
 }
 
 .textstyle p {
@@ -30,14 +29,14 @@ body {
   margin-right: 512px;
   color: #fff;
   font-size: 54px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .bullar {
+	position: absolute;
 	height: 500px;
-	left: 50%;
+	left: 512px;
 	margin-left: -250px;
-	position: relative;
 }
 
 
