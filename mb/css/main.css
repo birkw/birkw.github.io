@@ -25,7 +25,6 @@ body {
 .textstyle p {
   font-family: 'Roboto-Bold' sans-serif;
   text-align: center;
-  margin-right: 512px;
   color: #fff;
   font-size: 54px;
   letter-spacing: 1px;
@@ -36,7 +35,7 @@ body {
 	position: absolute;
 	height: 500px;
 	margin-top: -250px;
-	left: 512px;
+	left: 384px;
 	top: 512px;
 	margin-left: -250px;
 }
