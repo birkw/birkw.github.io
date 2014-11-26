@@ -26,7 +26,8 @@ body {
 .textstyle p {
   font-family: 'Roboto-Bold' sans-serif;
   text-align: center;
-  padding-left: 512px;
+  left: 50%;
+  margin-right: 512px;
   color: #fff;
   font-size: 54px;
   letter-spacing: 2px;
@@ -34,7 +35,8 @@ body {
 
 .bullar {
 	height: 500px;
-	padding-left: 512px;
+	left: 50%;
+	margin-left: -250px;
 	position: relative;
 }
 
