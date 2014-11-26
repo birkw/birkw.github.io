@@ -88,6 +88,23 @@ body {
 	position: absolute;
 }
 
+.mellanknapp {
+  background-color:#fff;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  text-align: center;
+  display:inline-block;
+  cursor:pointer;
+  color:#ea5b22;
+  font-family: 'arial' sans-serif;
+  font-size:54px;
+  font-weight:bold;
+  padding:20px;
+  width: 170px;
+  text-decoration:none;
+  position: absolute;
+  text-transform: uppercase;
+}
 
 
 
