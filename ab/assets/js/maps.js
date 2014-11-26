@@ -45,7 +45,7 @@ function init() {
         infowindow.open(map,marker);
       });
     
-    google.maps.event.addListener(marker, 'click', togglsseBounce);
+    google.maps.event.addListener(marker, 'click', toggleBounce);
 }
 
 function toggleBounce() {
