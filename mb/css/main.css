@@ -49,7 +49,7 @@ body {
 	-webkit-border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	color:#90cfc6;
+	color:#61b4a8;
 	font-family: 'arial' sans-serif;
 	font-size:54px;
   height: 130px;
@@ -70,7 +70,7 @@ body {
 	-webkit-border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	color:#90cfc6;
+	color:#61b4a8;
 	font-family: 'arial' sans-serif;
 	font-size:54px;
 	font-weight:bold;
@@ -92,7 +92,7 @@ body {
 	-webkit-border-radius:8px;
 	display:inline-block;
 	cursor:pointer;
-	color:#90cfc6;
+	color:#61b4a8;
 	font-family: 'arial' sans-serif;
 	font-size:54px;
 	font-weight:bold;
@@ -129,4 +129,56 @@ body {
   margin-top: 9px;
 }
 
+
+
+form {
+  position: absolute;
+  top: 100px;
+  width:510px;
+}
+
+label {
+  margin-left: -255px;
+  display:block;
+  margin-top:20px;
+  letter-spacing:1px;
+}
+
+input {
+  font-family: 'arial', sans-serif;
+  text-align: center;
+  width:510px;
+  height:100px;
+  background:#fff;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid #dedede;
+  margin-top:3px;
+  font-size:30px;
+  text-transform: uppercase;
+  color: #eaeaea;
+}
+
+input:focus {
+  border:1px solid #cfa02d;
+}
+
+.form {
+  left: 384px; 
+  top: 340px;
+  margin-left: -255px;
+  width: 510px;
+  color: #eaeaea;
+}
+
+.submit {
+  width: 510px;
+  height: 100px;
+  margin-top: 20px;
+  font-family: 'arial', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f9c23a;
+}
 
