@@ -141,7 +141,7 @@ label {
   margin-left: -255px;
   display:block;
   margin-top:20px;
-  letter-spacing:1px;
+  width: 510px;
 }
 
 input {
@@ -152,17 +152,17 @@ input {
   width:510px;
   height:100px;
   background:#fff;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
   border:1px solid #dedede;
   margin-top:3px;
   font-size:30px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #eaeaea;
 }
 
-input:focus {
-  border:1px solid #cfa02d;
+.input {
+
 }
 
 .form {
