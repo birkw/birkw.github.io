@@ -145,6 +145,7 @@ label {
 }
 
 input {
+  display: inline-block;
   font-family: 'arial', sans-serif;
   text-align: center;
   width:510px;
@@ -180,9 +181,5 @@ input:focus {
   text-transform: uppercase;
   font-weight: bold;
   color: #f9c23a;
-  background:#fff;
-  border-radius:5px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
 }
 
