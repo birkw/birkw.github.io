@@ -86,7 +86,7 @@ body {
 }
 
 
-.storknapp {
+.storknapp, .navknapp {
 	background-color:#fff;
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
@@ -105,6 +105,10 @@ body {
 
 .storknapp p {
   margin-top: 9px;
+}
+
+.navknapp p {
+  margin-top: 32px;
 }
 
 .mellanknapp {
