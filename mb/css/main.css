@@ -133,15 +133,13 @@ body {
 
 form {
   position: absolute;
-  top: 100px;
-  width:510px;
+  width: 510px;
 }
 
 label {
   margin-left: -255px;
   display:block;
   margin-top:20px;
-  width: 510px;
 }
 
 input {
@@ -149,20 +147,15 @@ input {
   display: inline-block;
   font-family: 'arial', sans-serif;
   text-align: center;
-  width:510px;
   height:100px;
   background:#fff;
   -moz-border-radius:8px;
   -webkit-border-radius:8px;
   border:1px solid #dedede;
-  margin-top:3px;
   font-size:30px;
   text-transform: none;
   color: #eaeaea;
-}
-
-.input {
-
+  width: 506px;
 }
 
 .form {
