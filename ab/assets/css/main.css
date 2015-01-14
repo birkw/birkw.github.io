@@ -59,7 +59,13 @@
 
 .produkt-guides {
   background-color: #fff;
+}
+
+.jumbo {
+  background-color: #f7f7f7;
   border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+  padding-top: 25px;
 }
 
 .produkt-guides h2 {
@@ -100,10 +106,7 @@
   letter-spacing: 0.5px;
   padding-top: 15px;
 }
-.historia {
-  padding-top: 25px;
-  padding-bottom: 50px;
-}
+
 .produkt-guides .thumbnail {
   max-width: 360px;
   margin-left: auto;
@@ -124,6 +127,8 @@
   background-color: #f7f7f7;
   padding-bottom: 70px;
   border-bottom: 1px solid #dbdbdb;
+  border-top: 1px solid #dbdbdb;
+
 }
 
 .historia h2 {
@@ -146,7 +151,7 @@
   margin-top: 30px;
 }
 
-.snappsar h2{
+.snappsar h2, .snappsar h3{
   font-family: 'Roboto-Light' sans-serif;
   text-align: center;
   color: #393c3d;
@@ -155,7 +160,11 @@
   text-transform: uppercase;
 }
 
-.flask-text {
+.snappsar h3 {
+  font-size: 18px;
+}
+
+.flask-text, .kraft-text {
   padding-top: 80px;
   letter-spacing: 1px;
 }
@@ -229,6 +238,9 @@ footer {
   border-top: 1px solid #dbdbdb;
 }
 
+.kraftevent {
+    padding-top: 70px;
+}
 
 .kontakt {
   margin-top: 50px;
@@ -287,7 +299,7 @@ footer {
   visibility: hidden;
 }
 
-#garden {
+#garden, #kraftan {
   display: block;
   content: " ";
   margin-top: -150px;
