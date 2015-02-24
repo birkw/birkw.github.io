@@ -1,6 +1,6 @@
 google.maps.event.addDomListener(window, 'load', init);
 
-var adamberg = new google.maps.LatLng(59.337561, 18.055882);
+var adamberg = new google.maps.LatLng(59.733907,18.356909);
 
 function init() {
   

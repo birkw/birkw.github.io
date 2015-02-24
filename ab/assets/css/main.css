@@ -42,6 +42,7 @@
 .thumbnail p {
   padding-top: 12px;
   font-size: 12px;
+  text-align: center;
 }
 
 .jumbotron h1 {
@@ -67,7 +68,7 @@
   padding-top: 25px;
 }
 
-.produkt-guides h2 {
+.produkt-guides h2, .rubrik-text h2, .tillbaks h2 {
   font-family: 'Roboto-Light' sans-serif;
   text-align: center;
   font-size: 40px;
@@ -77,8 +78,8 @@
   margin-top: 37px;
   font-size: 40px;
   margin-bottom: 13px;
-
 }
+
 .produkt-guides h3 {
   font-family: 'Roboto-Thin' sans-serif;
   text-transform: uppercase;
@@ -219,8 +220,8 @@ footer {
 
 .footer {
   color: #262626;
-  padding-bottom: 30px;
-  padding-top: 20px;
+  margin-top: -20px;
+  height: 60px;
   width: 100%;
 }
 
@@ -238,7 +239,7 @@ footer {
 }
 
 .kraftevent {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .kontakt {
@@ -267,6 +268,11 @@ footer {
   padding-bottom: 10px;
 }
 
+.tillbaks {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 45px;
+}
 
 #map {
   width: 100%;
@@ -288,6 +294,37 @@ footer {
   line-height: inherit;
   color: #262626;
   text-transform: uppercase;
+}
+
+.femtio {
+  padding-top: 50%;
+  margin-top: -227.5px;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
+a:link {
+    color: #262626;
+    text-decoration: none;
+
+}
+
+a:active {
+    color: #262626;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #262626;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #262626;
+  text-decoration: none;
 }
 
 #snapps {
