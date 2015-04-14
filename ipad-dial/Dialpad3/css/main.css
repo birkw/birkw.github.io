@@ -272,13 +272,13 @@ color: #f9c23a;
 background-color: #fff;
 }
 
-
 li {
   list-style: none;
 }
 
 button {
   border: none;
+  -webkit-appearance: none;
 }
 
 .num {
