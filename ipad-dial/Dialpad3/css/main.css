@@ -295,7 +295,7 @@ button {
   font-weight:bold;
   text-decoration:none;
   position: absolute;
-  text-align: center;
+  text-align: left;
 }
 
 .num h2{
@@ -309,18 +309,20 @@ button {
   margin-left: -238.5px; 
   top: 245px;
   position: absolute;
-  -webkit-appearance: none;
+  
   display: inline-block;
   font-family: 'arial', sans-serif;
   text-align: center;
-  height:100px;
-  background:#fff;
-  -moz-border-radius:8px;
-  -webkit-border-radius:8px;
   font-size:30px;
   text-transform: none;
   color: #f9c23a;
+  
+  height:100px;
   width: 475px;
+  background:#fff;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+
 }
 
 .result {
