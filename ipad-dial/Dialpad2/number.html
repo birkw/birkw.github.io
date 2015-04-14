@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body bgcolor="#358fc3">
+
+    <div class="textstyle">
+    <p style="left: 384px; margin-left: -263px; top: 85px; font-size: 56px; font-weight: bold;">Telefonnummer</p>
+    </div>
+
+    <!--FORM-->
+<form class="form" method="post" action="#" style="top: 220px;">
+            <label class=login></label>
+            <input type="text" id="nmbr_bubble" maxlength="10" class="nmbr_bubble"/>
+
+<input type="button" value="Clear" onclick="javascript:eraseText();"> 
+
+<input type="button" value="Ett" onclick="javascript:addNumber();"/>
+<input type="button" value="Två" onclick="javascript:addNumber2();"/>
+<input type="button" value="Tre" onclick="javascript:addNumber3();"/>
+
+</form>
+
+
+
+
+
+    <!--JS-->
+    <script>window.jQuery || document.write('<script src="js/jquery.2.1.0.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

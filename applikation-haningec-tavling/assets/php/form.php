@@ -25,7 +25,7 @@
     $to = 'birk@solenberg.org';
 
     $my_array = array($Name, $Age, $Adress, $Post_adress, $Phone, $Email, $Deltavling, $Message);
-    $topics = array("Namn: ", "Ålder: ", "Adress: ", "Post Adress: ", "Telefonnummer: ", "Email: ", "Deltävling: ", "Meddelande");
+    $topics = array("Namn: ", "Ålder: ", "Adress: ", "Post Adress: ", "Telefonnummer: ", "Email: ", "Deltävling: ", "Meddelande: ");
 
     $Apply = "<html><meta charset='UTF-8'><body>";
 

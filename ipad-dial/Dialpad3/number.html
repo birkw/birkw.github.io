@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!--JS-->
+    <script src="js/jquery.2.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!--Fastclick-->
+    <script src="fastclick.js"></script>
+    <script type="text/JavaScript">
+    <!--prevents the image from moving when user drags finger on screen-->
+    document.ontouchmove = function(e){
+      e.preventDefault();
+    }
+    window.addEventListener('load', function() {
+        new FastClick(document.body);
+    }, false);
+    </script>
+
+</head>
+
+<body bgcolor="#358fc3">
+
+
+<h2 id="result"></h2>
+
+<div id="numpad" class="clearfix">
+    
+    <button class="num" style="left: 239px; margin-left: -65px; top: 390px;" data-id="1">1</button>
+    <button class="num" style="left: 384px; margin-left: -65px; top: 390px;" data-id="2">2</button>
+    <button class="num" style="left: 529px; margin-left: -65px; top: 390px;" data-id="3">3</button>
+        
+    <button class="num" style="left: 239px; margin-left: -65px; top: 535px;" data-id="4">4</button>
+    <button class="num" style="left: 384px; margin-left: -65px; top: 535px;" data-id="5">5</button>
+    <button class="num" style="left: 529px; margin-left: -65px; top: 535px;" data-id="6">6</button>
+        
+    <button class="num" style="left: 239px; margin-left: -65px; top: 680px;" data-id="7">7</button>
+    <button class="num" style="left: 384px; margin-left: -65px; top: 680px;" data-id="8">8</button>
+    <button class="num" style="left: 529px; margin-left: -65px; top: 680px;" data-id="9">9</button>
+
+    <button class="num" style="left: 384px; margin-left: -65px; top: 825px;" data-id="0">0</button>
+
+</div>
+
+
+
+
+</body>
+</html>
