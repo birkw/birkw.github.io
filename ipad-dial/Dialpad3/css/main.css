@@ -282,6 +282,7 @@ button {
 }
 
 .num {
+  -webkit-appearance: none;
   background-color:#fff;
   -moz-border-radius:8px;
   -webkit-border-radius:8px;
