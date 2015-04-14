@@ -18,9 +18,9 @@
     document.ontouchmove = function(e){
       e.preventDefault();
     }
-    window.addEventListener('load', function() {
-        new FastClick(document.body);
-    }, false);
+    $(function() {
+        FastClick.attach(document.body);
+    });
     </script>
 
 </head>

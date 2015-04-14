@@ -23,7 +23,7 @@
            instance.flags = {};
            
            //Click Handlers
-           instance.selectors.numberDigits.on('fastclick', function(e){
+           instance.selectors.numberDigits.on('click', function(e){
             
             //Get clicked data-id
             var clickedNumber = $(this).data('id');
@@ -47,7 +47,7 @@
         var arr = [];
         
         //Testing
-        $('#numpad').children('.num').on('fastclick', function(e){
+        $('#numpad').children('.num').on('click', function(e){
          
          var clickedNumber = $(this).data('id');
          arr.push(clickedNumber);
