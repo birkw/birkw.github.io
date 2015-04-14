@@ -14,8 +14,7 @@ body {
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
-    background-image: url(images/bg@2x.jpg);
-	background-size: 1024px;
+  background-size: 1024px;
 }
 
 .container {
@@ -288,7 +287,7 @@ button {
   font-family: 'arial' sans-serif;
   font-size:70px;
   height:130px;
-  width:130px !important;
+  width:130px;
   font-weight:bold;
   text-decoration:none;
   position: absolute;
