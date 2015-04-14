@@ -283,8 +283,6 @@ button {
 
 .num {
   background-color:#fff;
-  -moz-border-radius:8px;
-  -webkit-border-radius:8px;
   display:inline-block;
   cursor:pointer;
   color:#358fc3;
