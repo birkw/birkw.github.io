@@ -1,5 +1,4 @@
 <?php
-header("Location: index.html");
 
 $servername = "71500-2000218.mysql.crystone.se:3306";
 $username = "2000218_xd89440";
