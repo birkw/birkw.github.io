@@ -1,4 +1,6 @@
 <?php
+header("Location: index.html");
+
 $servername = "71500-2000218.mysql.crystone.se:3306";
 $username = "2000218_xd89440";
 $password = "apelsin123";
@@ -11,7 +13,7 @@ mysql_select_db("myDB") or die(mysql_error());
 $nummer = $_POST['nummer']);
 
 
-$sql = "INSERT INTO mobilnummer (nummer)
-VALUES ('$nummer')
+$sql = INSERT INTO mobilnummer (nummer)
+VALUES = ('$nummer')
 
 ?>
