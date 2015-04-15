@@ -51,3 +51,8 @@ function addtext0() {
     var newtext0 = 0
     document.nummerform.outputtext.value += newtext0;
 }
+
+function empty() {
+    var empty = ""
+    document.nummerform.outputtext.value = "";
+}
