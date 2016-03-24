@@ -10,6 +10,7 @@ footer {
 	text-align: center;
 	color: #dadada;
 	padding-bottom: 15px;
+    padding-top: 40px;
 }
 
 h1,
@@ -64,13 +65,23 @@ header img {
 	padding-bottom: 25px;
 }
 
-.product-content h1, .offert-form h1 {
+.product-content h1, .offert-form h1, .about h1 {
 	text-align: left;
 	color: #383838;
 	font-size: 32px;
 	letter-spacing: 6px;
 	text-transform: uppercase;
 	font-family: pt-sans;
+}
+
+.about p {
+    line-height: 1.6;
+    text-align: left;
+    color: #383838;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: pt-sans;
+}
 }
 
 .front-img {
@@ -132,7 +143,6 @@ li a:hover {
 
 .offert-form {
 	padding-top: 40px;
-	padding-bottom: 40px;
 }
 
 
