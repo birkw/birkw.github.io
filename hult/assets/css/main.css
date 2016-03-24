@@ -31,7 +31,7 @@ header img {
 .jumbo {    
   margin-top: 30px;
   background-image: url("../img/front.jpg");
-  height: 500px;
+  height: 50%;
   background-size: cover;
 }
 
@@ -112,6 +112,11 @@ li a:hover {
 }
 ::-moz-selection {
   background: #ffb7b7; /* Gecko Browsers */
+}
+
+.slide-container {
+    margin: auto;
+    width: 65%;
 }
 
 /* CSS used here will be applied after bootstrap.css */
