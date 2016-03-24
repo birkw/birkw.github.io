@@ -1,0 +1,131 @@
+html,body {
+	height: 100%;margin: 0px;
+}
+
+footer {
+	font-family: pt-sans;
+	font-size: 11px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #dadada;
+	padding-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+}
+
+.jumbo {	
+  margin-top: 30px;
+  background-image: url("../img/front.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.product-content .information {
+	letter-spacing: 2px;
+	color: #ababab;
+	text-align: center;
+	font-family: pt-serif;
+}
+
+.product-grid {
+	padding-top: 20px;
+}
+
+.product-grid p {
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-family: open sans;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	color: #a0a0a0;
+}
+
+.product-grid h1{
+	padding-left: 15px;
+	text-align: left;
+	color: #383838;
+	font-size: 22px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-family: pt-sans;
+	padding-bottom: 25px;
+}
+
+.product-content h1 {
+	text-align: left;
+	color: #383838;
+	font-size: 32px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-family: pt-sans;
+}
+
+.front-img {
+	padding-top: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav li a {
+	font-family: futura-pt;
+	font-size: 16px;
+	letter-spacing: 1px;
+    display: inline-block;
+    color: black;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #a0a0a0;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
+}
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+}
+.item img {
+	width: 800px;	
+}
