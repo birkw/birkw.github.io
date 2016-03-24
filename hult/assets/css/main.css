@@ -34,7 +34,7 @@ header img {
     margin: 0 auto 20px;
 }
 
-.product-content .information {
+.product-content .information p, .product-content h4 {
 	letter-spacing: 2px;
 	color: #ababab;
 	text-align: center;
@@ -74,7 +74,7 @@ header img {
 	font-family: pt-sans;
 }
 
-.about p {
+.about p, .product-content p {
     line-height: 1.6;
     text-align: left;
     color: #383838;
@@ -82,6 +82,20 @@ header img {
     letter-spacing: 0.5px;
     font-family: pt-sans;
 }
+
+.divider {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divider p {
+    line-height: 1.6;
+    text-align: center;
+    color: #ababab;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: pt-sans;
 }
 
 .front-img {
@@ -123,7 +137,6 @@ li a:hover {
   background: #ffb7b7; /* Gecko Browsers */
 }
 
-
 /* CSS used here will be applied after bootstrap.css */
 .carousel {
     margin-top: 20px;
@@ -145,14 +158,12 @@ li a:hover {
 	padding-top: 40px;
 }
 
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #eee;
 }
-
 
 .floating-label-form-group input,
 .floating-label-form-group textarea {
@@ -236,4 +247,8 @@ form .row:first-child .floating-label-form-group {
     color: #000;
     border: 1px solid #fff;
     box-shadow: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
