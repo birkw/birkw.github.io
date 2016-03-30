@@ -29,10 +29,11 @@ header img {
 }
 
 .jumbo {    
-  margin-top: 30px;
-  background-image: url("../img/front.jpg");
-  height: 50%;
-  background-size: cover;
+    margin-top: 30px;
+    background-image: url("../img/front.jpg");
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .product-content .information p, .product-content h4 {
