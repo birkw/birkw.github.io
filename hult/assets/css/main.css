@@ -75,6 +75,10 @@ header img {
     font-family: pt-sans;
 }
 
+.divider p:hover {
+    color: #000 !important;
+}
+
 .front-img {
 	padding-top: 30px;
 	display: block;
@@ -212,7 +216,9 @@ form .row:first-child .floating-label-form-group {
 
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #000;
+    background: #fff;
+    color: #a3a3a3;
+    border: 1px solid #a3a3a3;
 }
 .btn-primary:active, .btn-primary.active {
     background: #fff;
