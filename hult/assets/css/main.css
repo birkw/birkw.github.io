@@ -109,7 +109,8 @@ li a:hover {
 
 .slide-container {
     margin: auto;
-    width: 65%;
+    width: 800px;
+    max-width: 90%;
 }
 
 /* CSS used here will be applied after bootstrap.css */
@@ -127,10 +128,6 @@ li a:hover {
 }
 .item img {
 	width: 800px;	
-}
-
-.offert-form {
-	padding-top: 40px;
 }
 
 .floating-label-form-group {
