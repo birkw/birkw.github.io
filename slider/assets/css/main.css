@@ -1,0 +1,322 @@
+html,body {
+	height: 100%;margin: 0px;
+}
+
+footer {
+	font-family: pt-sans;
+	font-size: 11px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #dadada;
+	padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+}
+
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.jumbo {    
+    margin-top: 30px;
+    background-image: url("../img/front.jpg");
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.product-content .information p, .product-content h4 {
+	letter-spacing: 2px;
+	color: #ababab;
+	text-align: center;
+	font-family: pt-serif;
+}
+
+.product-content h1, .offert-form h1, .about h1 {
+	text-align: left;
+	color: #383838;
+	font-size: 32px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	font-family: pt-sans;
+}
+
+.about p, .product-content p {
+    line-height: 1.6;
+    text-align: left;
+    color: #383838;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: pt-sans;
+}
+
+.divider {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.divider p {
+    line-height: 1.6;
+    text-align: center;
+    color: #ababab;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: pt-sans;
+}
+
+.divider p:hover {
+    color: #000 !important;
+}
+
+.front-img {
+	padding-top: 30px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.nav ul {
+    list-style:none;
+    text-align:center;
+}
+
+.nav li a {
+	font-family: futura-pt;
+	font-size: 16px;
+	letter-spacing: 1px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 40px;
+}
+
+li a:hover {
+    color: #a0a0a0;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+.slide-container {
+    margin: auto;
+    width: 800px;
+    max-width: 90%;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
+}
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+}
+.item img {
+	width: 800px;	
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 14px;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #18bc9c;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
+
+.sharp {
+  border-radius:0;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #fff;
+    color: #a3a3a3;
+    border: 1px solid #a3a3a3;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/**** NAV ****/
+
+
+
+/* navbar */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
