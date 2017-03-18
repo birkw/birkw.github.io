@@ -4,14 +4,14 @@ html,body {
 
 footer {
 	background-color: #265826;
-  height: 100px;
+  height: 110px;
 }
 
 .footer {
   color: #fff;
   text-align: center;
-  font-size: 15px;
-  padding-top: 22px;
+  font-size: 13px;
+  padding-top: 25px;
 }
 
 #loading {
@@ -75,7 +75,7 @@ footer {
 .jumbo {	
   margin-top: 60px;
   background-color: #387337;
-  height: 600px;
+  height: 500px;
   background-size: cover;
 }
 
@@ -271,8 +271,9 @@ p {
 }
 
 #map {
+  margin-top: 60px;
   width: 100%;
-  height: 400px;
+  height: 450px;
 }
 
 .kontakt-info .lista {

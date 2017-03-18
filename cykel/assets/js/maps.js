@@ -1,12 +1,15 @@
 google.maps.event.addDomListener(window, 'load', init);
 
-var adamberg = new google.maps.LatLng(59.3163624,18.0624142);
+var mapplacement = new google.maps.LatLng(59.3183913,18.0651306);
+var butik1 = new google.maps.LatLng(59.3185994,18.0679523);
+var butik2 = new google.maps.LatLng(59.3163624,18.0624142);
+
 
 function init() {
   
     var mapOptions = {
         zoom: 15,
-        center: adamberg,
+        center: mapplacement,
         draggable: true,
         scrollwheel: false,
         disableDefaultUI: true,
@@ -17,20 +20,12 @@ function init() {
 
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    var contentString = '<div style="padding: 10px; width: 320;" id="content">'+
-          '<div id="siteNotice">'+
-          '</div>'+
-          '<h1 id="firstHeading" style="font-family: helvetica neue, arial, sans-serif;' +
-          ' margin-bottom: 10px; font-size: 20px;" ' +
-          'class="firstHeading">Cykelåtervinning AB</h1>'+
-          '<div id="bodyContent"><div class="content-left" style="float: left; width: 320px;">'+
-          '<p style="font-size: 12px; font-family: helvetica neue, arial, sans-serif; font-weight: normal; letter-spacing: auto;"> ' +
-          'Maria Prästgårdsgata 14 </br> 118 52 STOCKHOLM</a>.</p> '+
-          '</div>'+
-          '</div>';
-    
-    var infowindow = new google.maps.InfoWindow({
-      content: contentString
+    var marker = new google.maps.Marker({
+        map: map,
+        draggable: false,
+        title: 'Uluru (Ayers Rock)',
+        animation: google.maps.Animation.DROP,
+        position: butik1
     });
 
     var marker = new google.maps.Marker({
@@ -38,14 +33,9 @@ function init() {
         draggable: false,
         title: 'Uluru (Ayers Rock)',
         animation: google.maps.Animation.DROP,
-        position: adamberg
+        position: butik2
     });
     
-    google.maps.event.addListener(marker, 'click', function() {
-        infowindow.open(map,marker);
-      });
-    
-    google.maps.event.addListener(marker, 'click', toggleBounce);
 }
 
 function toggleBounce() {
