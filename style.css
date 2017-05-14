@@ -9,6 +9,9 @@ body {
   background-color: #000;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
+
 #johntravolta {
   width: 600px;
   height: 200px;
@@ -27,4 +30,9 @@ body {
     background-size: 600px 200px;
     background-image: url('stardust@2x.gif');
   }
+}
+
+p, h1, h2, h3, h4, h5 {
+  font-family: 'Inconsolata', monospace;
+  color: #fff;
 }
