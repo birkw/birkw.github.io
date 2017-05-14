@@ -9,11 +9,11 @@ body {
   background-color: #000;
 }
 
-#logo {
+#johntravolta {
   width: 600px;
-  height: 300px;
+  height: 200px;
   display: block;
-  background-image: url('logo.png');
+  background-image: url('trucker-chris.gif');
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22,9 +22,9 @@ body {
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (max--moz-device-pixel-ratio: 1.5) {
-  #logo {
-    -webkit-background-size: 600px 300px;
-    background-size: 600px 300px;
-    background-image: url('logo@2x.png');
+  #johntravolta {
+    -webkit-background-size: 600px 200px;
+    background-size: 600px 200px;
+    background-image: url('stardust@2x.gif');
   }
 }
