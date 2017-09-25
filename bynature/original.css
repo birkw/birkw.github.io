@@ -64,23 +64,21 @@ h6 {
 
 p {
     font-family: 'muli', sans-serif;
-    line-height: 1.7;
-    letter-spacing: 0.3px;
-    color: #888;
+    line-height: 1.5;
+    color: #2b2b2b;
     font-size: 14px;
 }
 
 p.Preamble {
     font-size: 16px;
     font-weight: 200;
-    letter-spacing: 0.2px;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 p.legal {
     font-size: 12px;
     font-weight: 200;
-    letter-spacing: 0.2px;
+    line-height: 1.5;
 
 }
 
@@ -98,20 +96,14 @@ p.legal {
 }
 
 .button-primary {  
-    border-color: #034a67;
+    border-color: #00597e;
     background-color: #00597e;
     color: #fff;
 }
 
-.button-secondary {
-    border-color: #34715b;
-    background-color: #34715b;
-    color: #fff;
-}
-
 .button-cta {
-    border-color: #ffe254;
-    background-color: #ffe254;
+    border-color: #fdcc2f;
+    background-color: #fdcc2f;
     color: #000;
     font-weight: 700;
 }
@@ -124,19 +116,14 @@ p.legal {
 
 
 .button-primary:hover {  
-    border-color: #034a67;
-    background-color: #034a67;
+    border-color: #073c52;
+    background-color: #073c52;
     color: #fff;
 }
 
-.button-secondary:hover {
-    background-color: #275746; /* Green */
-    color: white;
-}
-
 .button-cta:hover {
-    border-color: #ebc920;
-    background-color: #ebc920;
+    border-color: #e5ad17;
+    background-color: #e5ad17;
     color: #000;
 }
 
@@ -146,6 +133,9 @@ p.legal {
     color: #fff;
 }
 
+.link-underline {
+	  border-bottom: 1px solid #2b2b2b;
+}
 
 button:focus, utton:focus { 
     border: 1px solid #888;
@@ -159,14 +149,7 @@ input, textarea{
     color: #2b2b2b;
     border-radius: 0;
     border: 1px solid #ccc;
-    padding: 10px;
-}
-
-
-::-webkit-input-placeholder {
-    color:    #ccc;
-    font-style: italic;
-
+    height: 30px;
 }
 
 input:focus, textarea:focus { 
@@ -192,13 +175,13 @@ span.checkbox-fix, span.radio-fix  {
     font-family: 'muli', sans-serif;
     line-height: 1.7;
     letter-spacing: 0.3px;
-    color: #888;
+    color: #2b2b2b;
     font-size: 14px;
     margin-left: 20px;
 }
 
 span.checkbox-chosen {
-    color: #7ea0b7;
+    color: #2b2b2b;
 }
 
 
@@ -224,7 +207,6 @@ span.checkbox-chosen {
 }
 
 .message span {
-  padding-bottom: 2px;
   border-bottom: 1px solid white;
 }
 
@@ -234,7 +216,6 @@ span.checkbox-chosen {
 }
 
 .message-sucess span {
-  padding-bottom: 2px;
   border-bottom: 1px solid #006400;
 }
 
@@ -244,7 +225,6 @@ span.checkbox-chosen {
 }
 
 .message-warning span {
-  padding-bottom: 2px;
   border-bottom: 1px solid #2b2b2b;
 }
 
@@ -254,7 +234,6 @@ span.checkbox-chosen {
 }
 
 .message-error span {
-  padding-bottom: 2px;
   border-bottom: 1px solid #e02b27;
 }
 
@@ -263,7 +242,7 @@ li {
     font-family: 'muli', sans-serif;
     line-height: 1.7;
     letter-spacing: 0.3px;
-    color: #888;
+    color: #2b2b2b;
     font-size: 14px;
 }
 
