@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Cykelåtervinning AB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cykelåtervinning hjälper er med övergivna cyklar och avhämtning av tillvaratagna cyklar. Vi hjälper er fastighet eller betalar er för att hämta era cyklar.">
+  <meta name="keywords" contenct="cykel,cykelåtervinning,återvinning,övergivna,hantering,bicycle,fixa,återvinner,betalt,problem,komplett,fastighet,cykel stockholm,stockholm,fastigheter,tillvaratagna cyklar,cyklar,hitta,sälja,köpa,köp,begagnad,begagnade">
+<!--Favicon-->
+<link rel="shortcut icon" href="assets/ico/favicon.png">
+<!--Bootstrap-->
+<link href="assets/boots/css/bootstrap.min.css" rel="stylesheet">
+<!--Spreadsheet-->
+  <link href="assets/css/main.css" rel="stylesheet">
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75183008-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--Fonts-->
+<link href='assets/css/font.css' rel='stylesheet' type='text/css'>
+<!--Google Karta-->
+<script src="assets/js/googleapi.js"></script>
+<script src="assets/js/maps.js"></script>
+<!--JS-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/boots/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!--Ladda sidan p0.5-->
+  <div style="display: none" id="loading">
+    <img class="imgload" src="assets/img/loading.gif">
+  </div>
+<!--Ladda sidan p1-->
+  <script type="text/javascript">
+      document.getElementById("loading").style.display = "block";
+  </script> 
+
+
+<!--Nav-->
+<nav class = "nav navbar navbar-default navbar-fixed-top" role = "navigation">
+  <div class="container">
+   <div class = "navbar-header">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+        <img class="navbar-left" href="index.html" src="assets/img/logo.svg" onerror="this.onerror=null; this.src='assets/img/logotyp.png'" style="margin: 13px 13px;">
+   </div>
+   <div class = "collapse navbar-collapse navbar-right" id = "example-navbar-collapse">
+      <ul class = "nav navbar-nav">
+        <li><a href = "index.html">Hem</a></li>
+        <li><a href = "kontakt.html">Kontaktformulär</a></li>
+        <li><a href = "faq.html">FAQ</a></li>
+        <li><a href = "https://www.blocket.se/cykelatervinning-i-stockholm?ca=11" target="_blank">Butik Mariatoget</a></li>
+        <li><a href = "service.html">Service & Reparation</a></li>
+      </ul>
+   </div>
+ </div>
+</nav>
+<!--End Nav-->
+
+<div class="faq">
+  <div class="container">
+    <h2>SERVICE & REPARATION</h2>
+ </div>
+</div>
+
+
+<!--Andra-->
+<div class="first-page" style="margin-bottom: 50px;">
+	<div class="container">
+
+
+    <h3 style="padding-top: 30px; padding-bottom: 20px; text-align: center">Cykelservice & Reparation</h3>
+      <div class="row"><div class="col-md-8 col-md-offset-2">
+        <p> Vi på Cykelåtervinining har mer än tjugo år erfarenhet av cykelreparationer Sverige. </br>Våra två butiker är belägna inom ett par hundra meters gångavstånd & är varför vi har möjlighet att fördela arbeten mellan butikerna.</br></br>Nedan följer ett prisexempel på vad det kan tänkas kosta när du lämnar in din cykel till oss för service & reparation. </p>
+    </div></div>
+
+<div class="row"><div class="col-md-8 col-md-offset-2">   
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Information</th>
+            <th>Pris</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Montering lås</td>
+            <td>Ringlås ingår</td>
+            <td>400 SEK</td>
+          </tr>
+          <tr>
+            <td>Helservice</td>
+            <td>Se specifikation</td>
+            <td>450 SEK</td>
+          </tr>
+          <tr>
+            <td>Punktering</td>
+            <td>Slang ingår</td>
+            <td>200 SEK</td>
+          </tr>
+          <tr>
+            <td>Punktering blixtjobb</td>
+            <td>Medan kunden väntar</td>
+            <td>250 SEK</td>
+          </tr>
+          <tr>
+            <td>Växeljustering</td>
+            <td></td>
+            <td>200 SEK</td>
+          </tr>
+          <tr>
+            <td>Montering Cykelkorg</td>
+            <td>Cykelkorg ingår</td>
+            <td>400 SEK</td>
+          </tr>
+          <tr>
+            <td>Bromsjusteringar</td>
+            <td style="text-align: right">från</td>
+            <td>200 SEK</td>
+          </tr>
+          <tr>
+            <td>Byte bromsklossar</td>
+            <td>Bromsjustering och klossar ingår</td>
+            <td>400 SEK</td>
+          </tr>
+          <tr>
+            <td>Bromsservice</td>
+            <td>Virar, hölje och bromsklossar ingår</td>
+            <td>500 SEK</td>
+          </tr>
+          <tr>
+            <td>Riktning av hjul</td>
+            <td style="text-align: right">från</td>
+            <td>200 SEK</td>
+          </tr>
+          <tr>
+            <td>Ekerbyte + Riktning</td>
+            <td style="text-align: right">från</td>
+            <td>300 SEK</td>
+          </tr>
+          <tr>
+            <td>Kedjebyte</td>
+            <td></td>
+            <td>200 SEK</td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!--Ladda sidan p2-->
+  <script type="text/javascript">
+ window.onload = function() 
+  { document.getElementById("loading").style.display = "none"; }
+  </script>
+<!--Footer--> 
+
+<footer>
+  <div class="footer">
+  <p> Maria Prästgårdsgata 14 - 118 52 STOCKHOLM - info@cykelatervinning.com </br>
+  <p> Cykelåtervinning Stockholm AB 2018 ©</p>
+  </div>
+</footer>
+</body>
+</html>
