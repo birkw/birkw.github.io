@@ -44,7 +44,6 @@
 
 
 
-
 <!--Nav-->
 <nav class = "nav navbar navbar-default navbar-fixed-top" role = "navigation">
   <div class="container">
@@ -71,11 +70,15 @@
 </nav>
 <!--End Nav-->
 
+<!--Tack-->
 
+<div class="mail-respons-error">
+        <h2> Ett fält var tyvärr fel! Försök igen.</h2>
+</div>
 
 <!--Karta-->
 
-<div id="map"></div>
+<div id="map" style="margin-top: 0px"></div>
 
 <!--Fjärde-->
 <div class="message">
@@ -115,7 +118,6 @@
 
 </div>
 
-
 </div>
 
 <div class="container">
@@ -128,10 +130,14 @@ accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset;
 document.charset = 'ISO-8859-1'; 
 window.onbeforeunload = function () {document.charset=originalCharset;};">
 Namn:<br />
-<input class="form-control" name="realname" /><br /> Mobilnummer:<br />
-<input class="form-control" name="mobilenumber"><br /> E-mail:<br />
-<input class="form-control" name="email" /><br /> Adress:<br />
-<input class="form-control" name="adress"><br /> Välj ärende:<br />
+<input class="form-control" name="realname" /><br />
+Mobilnummer:<br />
+<input class="form-control" name="mobilenumber"><br />
+E-mail:<br />
+<input class="form-control" name="email" /><br />
+Adress:<br />
+<input class="form-control" name="adress"><br />
+Välj ärende:<br />
 <select class="form-control" name="arende">
 <option value="cykelavhamtning">Boka gratis avhämtning av redan tillvaratagna cyklar</option>
 <option value="cykelutrensning">Förfrågan om komplett hantering av övergivna cyklar</option>
