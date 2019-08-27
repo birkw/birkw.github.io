@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Kontakt｜Cykelåtervinning AB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cykelåtervinning hjälper er med övergivna cyklar och avhämtning av tillvaratagna cyklar. Vi hjälper er fastighet eller betalar er för att hämta era cyklar.">
+  <meta name="keywords" contenct="cykel,cykelåtervinning,återvinning,övergivna,hantering,bicycle,fixa,återvinner,betalt,problem,komplett,fastighet,cykel stockholm,stockholm,fastigheter,tillvaratagna cyklar,cyklar,hitta,sälja,köpa,köp,begagnad,begagnade">
+<!--Favicon-->
+<link rel="shortcut icon" href="assets/ico/favicon.png">
+<!--Bootstrap-->
+<link href="assets/boots/css/bootstrap.min.css" rel="stylesheet">
+<!--Spreadsheet-->
+  <link href="assets/css/main.css" rel="stylesheet">
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75183008-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--Fonts-->
+<link href='assets/css/font.css' rel='stylesheet' type='text/css'>
+<!--Google Karta-->
+<script src="assets/js/googleapi.js"></script>
+<script src="assets/js/maps.js"></script>
+<!--JS-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/boots/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Ladda sidan p0.5-->
+  <div style="display: none" id="loading">
+    <img class="imgload" src="assets/img/loading.gif">
+  </div>
+<!--Ladda sidan p1-->
+  <script type="text/javascript">
+      document.getElementById("loading").style.display = "block";
+  </script> 
+
+
+<!--Nav-->
+<nav class = "nav navbar navbar-default navbar-fixed-top" role = "navigation">
+  <div class="container">
+   <div class = "navbar-header">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+        <a href = "index.html"><img class="navbar-left" src="assets/img/logo.svg" onerror="this.onerror=null; this.src='assets/img/logotyp.png'" style="margin: 13px 13px;"></a>
+   </div>
+   <div class = "collapse navbar-collapse navbar-right" id = "example-navbar-collapse">
+      <ul class = "nav navbar-nav">
+        <li><a href = "kontakt.html">Kontaktformulär</a></li>
+        <li><a href = "faq.html">FAQ</a></li>
+        <li><a href = "https://www.blocket.se/cykelatervinning-i-stockholm?ca=11" target="_blank">Butik Mariatoget</a></li>
+        <li><a href = "verkstad.html">Verkstad Hälleforsnäs</a></li>
+        <li><a href = "service.html">Service & Reparation</a></li>
+        <li><a href = "referenser.html">Referenser</a></li>
+      </ul>
+   </div>
+ </div>
+</nav>
+<!--End Nav-->
+
+<!--Tack-->
+
+<div class="mail-respons">
+  <h2> Tack för ditt mail!</h2>
+</div>
+
+<div class="green-top-adjusted">
+  <div class="container">
+    <h2 class="w-text-header center-text">KONTAKT</h2>
+ </div>
+</div>
+
+<!--Fjärde-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 p-t-30">
+    <h3 class="title-text center-text p-b-30">Kontakta oss </h3>
+    </div>
+  </div>
+
+  <div class="row p-b-50">
+    <div class="col-md-3 col-md-offset-3">
+      <ul class="lista list-unstyled">
+        <li> <b>Öppettider för vår Butik:</b> </li>
+        <li> Måndag-Fredag: 10.00-18.00</li>
+        <li> Lördag: 10.00-16.00</li>
+        <li> Söndag: Stängt</li>
+      </ul>
+      <ul class="lista list-unstyled p-t-20">
+        <li> <b>Adress:</b> </li>
+        <li>Maria Prästgårdsgata 14</li>
+        <li>118 52 STOCKHOLM</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul class="list-unstyled">
+          <li> <b>Kontakt:</b> </li>
+          <li><b>Telefon:</b> 08-644 48 82</li>
+          <li><b>Epost:</b> info@cykelatervinning.com</li>
+      </ul>
+      <ul class="lista list-unstyled p-t-20">
+          <li> <b>Organisationsnummer:</b> 559019-9005 </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 p-b-50">
+      <form method="post" action="http://www.cykelatervinning.com/cgi-bin/FormMail.pl" 
+      accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; 
+      document.charset = 'ISO-8859-1'; 
+      window.onbeforeunload = function () {document.charset=originalCharset;};">
+      Namn:<br />
+      <input class="form-control" name="realname" /><br /> Mobilnummer:<br />
+      <input class="form-control" name="mobilenumber"><br /> E-mail:<br />
+      <input class="form-control" name="email" /><br /> Adress:<br />
+      <input class="form-control" name="adress"><br /> Välj ärende:<br />
+      <select class="form-control" name="arende">
+      <option value="cykelavhamtning">Boka gratis avhämtning av redan tillvaratagna cyklar</option>
+      <option value="cykelutrensning">Förfrågan om komplett hantering av övergivna cyklar</option>
+      <option value="ovrigt">Övrigt</option>
+      </select><br />
+      Skriv ditt meddelande här:<br />
+      <textarea class="form-control" cols="40" rows="10" name="message"></textarea><br />
+      <br />
+      <input type="submit" value="Skicka" class="btn btn-colors btn-block"/>
+      <input type="hidden" name="recipient" value="info@cykelatervinning.com" />
+      <input type="hidden" name="subject" value="Subject" />
+      <input type="hidden" name="redirect" 
+      value="http://www.cykelatervinning.com/kontakt-tack.html" />
+      <input type="hidden" name="missing_fields_redirect" 
+      value="http://www.cykelatervinning.com/kontakt-error.html" />
+      <input type="hidden" name="required" value="realname,mobilenumber,email,adress,arende,message" />
+      </form>
+    </div>
+  </div>
+</div>
+
+<!--Ladda sidan p2-->
+  <script type="text/javascript">
+ window.onload = function() 
+  { document.getElementById("loading").style.display = "none"; }
+  </script>
+
+<!--Slide JS-->
+<script src="./assets/js/slide.min.js"></script>
+
+<!--Footer--> 
+<footer>
+  <div class="footer">
+  <p> Maria Prästgårdsgata 14 - 118 52 STOCKHOLM - info@cykelatervinning.com </br>
+  <p> Cykelåtervinning Stockholm AB 2018 ©</p>
+  </div>
+</footer>
+</body>
+</html>
